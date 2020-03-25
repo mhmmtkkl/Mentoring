@@ -36,6 +36,8 @@ public class scannerClass {
         System.out.println("are you in the class : "+areYouInTheClass );
 
 
+
+
 //        nextBoolean()	Reads a boolean value from the user
 //          scanner.nextBoolean();
 //        nextByte()	Reads a byte value from the user

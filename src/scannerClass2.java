@@ -39,8 +39,8 @@ public class scannerClass2 {
         System.out.println("average age of your family : "+average);
 
 
-
-
-
     }
 }
+
+
+

@@ -14,37 +14,41 @@ public class String1 {
 //        equalsIgnoreCase()
         System.out.println("Enter your name: ");
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
+//
+//        String scannerName = scanner.nextLine();
+//
+//        System.out.println(name.equalsIgnoreCase(scannerName));
 
-        String scannerName = scanner.nextLine();
-
-        System.out.println(name.equalsIgnoreCase(scannerName));
 
 //         contains
 
-        String lastName = "Koklu";
+        String lastName = "James";
 
-        System.out.println("Please enter your last name ");
+        String lastNameContains=  "Jam";
 
-        String scannerLastName = scanner.nextLine();
+        System.out.println("is James contains jam "+lastName.contains(lastNameContains));
 
-        System.out.println(lastName.contains(scannerLastName));
+
+//        System.out.println("Please enter your last name ");
+//
+//        String scannerLastName = scanner.nextLine();
+//
+//        System.out.println(lastName.contains(scannerLastName));
 
 /*
 
         Task 1:
-        Create string as city
-                value as city name where you live.
+        Create string as your full name
 
-                With a scanner add any city name
+                Create one more String as your last name
 
-                Verify first String (city) is containing the second String (city) from scanner.
+                Verify full name String contains last name String
 
  */
 
 //        upperCase()
     //         make the string upper case
-
 
 //        lowerCase
     //         make all the String as lower case
