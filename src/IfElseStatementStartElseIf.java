@@ -17,30 +17,28 @@ public class IfElseStatementStartElseIf {
       int total = num1+num2;
 
       if(total == 10 ){
-          System.out.println("Total is equal to 10");
+            System.out.println("Total is equal to 10");
 
-      }else if(total > 15){
-            System.out.println("Total is bigger then 15");
+        }else if(total != 10){
+            System.out.println("Total is NOT equal to 10");
         }
 
-
-      /*
+        /*
 
         Create two String
 
         if the first String equal to second string
 
-        print first String equal to second string
+            print first String equal to second string
 
         else if first String is not equal to second string
 
+        print first String NOT equal to second string
+
        */
 
-
-
-
-      /*
-        Task 1
+          /*
+                TASK 1
             Create two int
 
             if the first one is bigger then second int
@@ -50,6 +48,31 @@ public class IfElseStatementStartElseIf {
                 print second int is bigger then first int
 
        */
+
+          /*
+                TASK 2
+            Create two String
+
+            if the first one is containing the second one
+                print first String is containing the second String
+
+            if the second String is containing the first String
+                print second String is containing the first String
+
+           */
+
+
+
+      /*
+
+       && and operator in java
+
+       || or operator in java
+
+       */
+
+
+
 
       /*
 
@@ -75,6 +98,7 @@ public class IfElseStatementStartElseIf {
 
 
       /*
+
         multiple else if TASK
 
            create one Scanner
@@ -95,11 +119,33 @@ public class IfElseStatementStartElseIf {
               else if budget < 2500
                 print stay at home
 
-
-
        */
 
+      /*
+        multiple else if TASK
 
+           create one Scanner
+           create int score = nextInt()
+
+           if the score is bigger then 90 less then 100
+                print your result is A
+
+                if the score is bigger then 80 less then 90
+                print your result is B
+
+                if the score is bigger then 70 less then 80
+                print your result is C
+
+                if the score is bigger then 60 less then 70
+                print your result is D
+
+                if the score is bigger then 50 less then 70
+                print your result is E
+
+                if less then 50 and bigger then 0
+                print your result is F
+
+       */
 
 
         System.out.println("code is done");
