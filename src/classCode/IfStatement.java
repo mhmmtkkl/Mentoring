@@ -2,7 +2,7 @@ package classCode;
 
 import java.util.Scanner;
 
-public class ifStatement {
+public class IfStatement {
 
     public static void main(String[] args) {
 

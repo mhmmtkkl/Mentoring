@@ -2,7 +2,7 @@ package classCode;
 
 import java.util.Scanner;
 
-public class task1 {
+public class Task1 {
 
     /*
         Create two Strings

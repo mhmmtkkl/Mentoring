@@ -2,7 +2,7 @@ package classCode;
 
 import java.util.Scanner;
 
-public class elseIfClass2 {
+public class ElseIfClass2 {
 
     public static void main(String[] args) {
 

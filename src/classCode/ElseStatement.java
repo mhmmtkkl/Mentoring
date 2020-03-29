@@ -1,6 +1,6 @@
 package classCode;
 
-public class elseStatement {
+public class ElseStatement {
 
     public static void main(String[] args) {
 

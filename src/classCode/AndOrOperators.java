@@ -2,7 +2,7 @@ package classCode;
 
 import java.util.Scanner;
 
-public class andOrOperators {
+public class AndOrOperators {
 
     public static void main(String[] args) {
 
@@ -49,12 +49,12 @@ public class andOrOperators {
         Scanner df = new Scanner(System.in);
 
         System.out.println("enter the username");
-        String username = df.nextLine();
+        String userName = df.nextLine();
 
         System.out.println("enter the password ");
         String password = df.nextLine();
 
-        if(username.contains(password) && password.length()<5){
+        if(userName.contains(password) && password.length()<5){
 
             System.out.println("your password is not accepted ");
 

@@ -1,6 +1,6 @@
 package classCode;
 
-public class orOperator {
+public class OrOperator {
 
     public static void main(String[] args) {
 
