@@ -1,8 +1,10 @@
+package officeHour;
+
 public class officeHour {
 
     public static void main(String[] args) {
 
-//        Sting methods ( index of , last inde of , trim , concat , char at , toString , replace first replace all ) 6-7pm
+//        Sting methods ( index of , last index of , trim , concat , char at  , replace first replace all ) 6-7pm
 
 //        index of  Start counting from 0
 
@@ -25,7 +27,7 @@ public class officeHour {
         System.out.println("name2 with trim   --->>>> "+name2.trim());
 
 
-//      concat  adding the text in the string
+//      concat  method add one string to the end of another string
 
         String str3 = "my ";
 

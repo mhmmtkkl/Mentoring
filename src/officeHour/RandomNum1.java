@@ -1,3 +1,5 @@
+package officeHour;
+
 import java.util.*;
 
 public class RandomNum1 {

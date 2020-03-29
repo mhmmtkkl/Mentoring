@@ -1,8 +1,20 @@
+package officeHour;
+
 import java.util.Scanner;
 
 public class ifElseStatementRecap {
 
     public static void main(String[] args) {
+
+          /*
+        if statement
+
+        && -->>  and
+        || -->   or
+
+        else if statement
+
+         */
 
      /*
      recap yesterday
@@ -13,7 +25,7 @@ public class ifElseStatementRecap {
 
      Scanner scan = new Scanner(System.in);
 
-     System.out.println("enter your name ");
+     System.out.println("enter your name");
 
      String nameFromScanner = scan.nextLine();
 
@@ -26,28 +38,19 @@ public class ifElseStatementRecap {
      /*
 
        Task 1:
-        create two string
+       create two string
 
-        if first String is equal to second String then print
+       if first String length = to second string length
 
-        First String is equal to second String
+       First String length is equal to second String length
 
       */
+
+
 
      /*
 
      Task 2:
-        Create two int
-
-        if total of two int is = 10
-
-        print total is 10
-
-      */
-
-     /*
-
-     Task 3:
         Create two double
 
         if total of two double is < 100
@@ -55,6 +58,7 @@ public class ifElseStatementRecap {
         print total of two doubles are less then 100
 
       */
+
 
 
     }

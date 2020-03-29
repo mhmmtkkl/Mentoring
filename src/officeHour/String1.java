@@ -1,3 +1,5 @@
+package officeHour;
+
 import java.util.Scanner;
 
 public class String1 {

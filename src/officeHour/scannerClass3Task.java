@@ -1,3 +1,5 @@
+package officeHour;
+
 public class scannerClass3Task {
 
 /*
