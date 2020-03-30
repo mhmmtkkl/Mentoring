@@ -1,4 +1,4 @@
-package Ali.officeHour;
+package Ali.officeHour.Week2;
 
 public class officeHourStringMethods {
 
