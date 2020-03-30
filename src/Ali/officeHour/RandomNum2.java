@@ -1,4 +1,4 @@
-package officeHour;
+package Ali.officeHour;
 
 import java.util.Random;
 import java.util.Scanner;

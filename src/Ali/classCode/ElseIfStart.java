@@ -1,4 +1,4 @@
-package classCode;
+package Ali.classCode;
 
 import java.util.Scanner;
 

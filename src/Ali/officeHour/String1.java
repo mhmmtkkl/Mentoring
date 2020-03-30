@@ -1,6 +1,4 @@
-package officeHour;
-
-import java.util.Scanner;
+package Ali.officeHour;
 
 public class String1 {
 
