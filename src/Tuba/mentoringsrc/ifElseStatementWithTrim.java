@@ -1,10 +1,10 @@
-package Tuba;
+package Tuba.mentoringsrc;
 
 public class ifElseStatementWithTrim {
     public static void main(String[] args) {
         String mystr = " ";
 
-        mystr = mystr.trim();
+        mystr.trim();
 
         if (mystr.isEmpty()) {
             System.out.println("yeap");

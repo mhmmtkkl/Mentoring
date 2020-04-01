@@ -1,4 +1,4 @@
-package Tuba;
+package Tuba.mentoringsrc;
 
 import java.util.Scanner;
 

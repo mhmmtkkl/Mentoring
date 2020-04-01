@@ -1,9 +1,9 @@
-package Tuba;
+package Tuba.mentoringsrc;
 
 public class IfElseStatementWithString {
     public static void main(String[] args) {
         String myStr = "Java";
-        myStr=myStr.concat(" is cool");
+        myStr.concat(" is cool");
 
         // System.out.println(myStr);
 

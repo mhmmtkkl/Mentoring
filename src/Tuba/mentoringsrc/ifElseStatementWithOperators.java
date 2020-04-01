@@ -1,4 +1,4 @@
-package Tuba;
+package Tuba.mentoringsrc;
 
 public class ifElseStatementWithOperators {
     public static void main(String[] args) {
