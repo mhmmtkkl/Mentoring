@@ -79,7 +79,30 @@ public class switchStatement {
 
     */
 
-//          TASK 2
+    /*
+            TASK 2
+       char grade = 'C';
+
+      switch(grade) {
+         case 'A' :
+            System.out.println("Excellent!");
+            break;
+         case 'B' :
+         case 'C' :
+            System.out.println("Well done");
+            break;
+         case 'D' :
+            System.out.println("You passed");
+         case 'F' :
+            System.out.println("Better try again");
+            break;
+         default :
+            System.out.println("Invalid grade");
+      }
+     */
+
+
+//          TASK 3
 //        int num=sca.nextInt();
 //
 //        switch(num) {
@@ -101,7 +124,7 @@ public class switchStatement {
 
 
 /*
-            TASK 3
+            TASK 4
 
                Create int age
                if the age is 1
