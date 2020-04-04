@@ -1,4 +1,4 @@
-package Ali.classCode;
+package Ali.classCode.week2;
 
 public class ElseStatement {
 

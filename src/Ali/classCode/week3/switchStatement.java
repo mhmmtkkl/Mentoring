@@ -1,11 +1,30 @@
-package Ali.officeHour.Week3;
+package Ali.classCode.week3;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class switchStatement {
 
     public static void main(String[] args) {
 
+
+        Scanner scan = new Scanner(System.in);
+
+        ArrayList<String> a = new ArrayList<>();
+
+        int counter = 0;
+        while(scan.hasNext()){
+
+            a.add(scan.nextLine());
+            counter++;
+            if(counter==10){
+
+                break;
+            }
+
+        }
+
+        System.out.println(a);
 /*
         Create Scanner then int number whichMonth
 
@@ -28,6 +47,8 @@ public class switchStatement {
                    print month is June
 
  */
+
+
 
             Scanner sca = new Scanner(System.in);
 
@@ -58,26 +79,6 @@ public class switchStatement {
 //        }
 
 
-    /*      TASK 1
-        Number of sibling
-
-                Create one number enter how many siblings do you have
-
-                if the number 0
-                print you dont have any sibling
-                if the number 1
-                print you have one sibling
-                if the number 2
-                print you have 2 sibling
-                if the number 3
-                print you have three sibling
-
-                else
-                print you have a lot of siblings
-
-                DO THIS TASK WITH SWITCH STATEMENT
-
-    */
 
     /*
             TASK 2
@@ -102,9 +103,28 @@ public class switchStatement {
      */
 
 
+    /*      TASK 3
+        Number of sibling
+
+                Create one number enter how many siblings do you have
+
+                if the number 0
+                print you dont have any sibling
+                if the number 1
+                print you have one sibling
+                if the number 2
+                print you have 2 sibling
+                if the number 3
+                print you have three sibling
+
+                else
+                print you have a lot of siblings
+
+                DO THIS TASK WITH SWITCH STATEMENT
+
+    */
 //          TASK 3
 //        int num=sca.nextInt();
-//
 //        switch(num) {
 //            case 0:
 //                System.out.println("you dont have any sibling");
@@ -126,7 +146,7 @@ public class switchStatement {
 /*
             TASK 4
 
-               Create int age
+               Create byte age
                if the age is 1
                print you can crawl
 
@@ -147,6 +167,34 @@ public class switchStatement {
                DO THIS WITH SWITCH STATEMENT
 
 */
+
+/*
+
+        Create one String whereYouLive
+
+            if where you live is equals to "US"
+
+            print you live in United States
+
+            if where you live is equals to "BEL"
+
+            print you live in Belgium
+
+            if where you live is equals to "CAN"
+
+            print you live in Canada
+
+            if where you live is equals to "DEU"
+
+            print you live in Germany
+
+         */
+
+    switch("de"){
+        case "de":
+            System.out.println("sadsa");
+    }
+
 
     }
 
