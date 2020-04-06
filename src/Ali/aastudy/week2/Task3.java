@@ -1,4 +1,4 @@
-package Ali.classCode.week2;
+package Ali.aastudy.week2;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Task3 {
 //        System.out.println(20%6);
 //      6 + 6 = 12 + 6 = 18   20 - 18 = 2
 
-        /*
+/*
         Task 3
 
         create two ints
@@ -33,7 +33,7 @@ public class Task3 {
         else if the reminder is 0
                 print num 1 divide by num 2 is 0
 
-         */
+*/
 
         Scanner dp = new Scanner(System.in);
 

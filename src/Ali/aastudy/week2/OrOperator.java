@@ -1,4 +1,4 @@
-package Ali.classCode.week2;
+package Ali.aastudy.week2;
 
 public class OrOperator {
 
