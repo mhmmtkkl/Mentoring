@@ -1,4 +1,4 @@
-package Ali.classCode.week3;
+package Ali.aastudy.week3;
 
 import java.util.Random;
 import java.util.Scanner;
