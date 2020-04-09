@@ -1,4 +1,4 @@
-package Tuba.mentoringsrc;
+package Tuba.ifElseStatement;
 
 public class ifElseStatementWithVariable {
     public static void main(String[] args) {

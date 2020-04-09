@@ -1,4 +1,4 @@
-package Tuba.mentoringsrc;
+package Tuba.ifElseStatement;
 
 import java.util.Scanner;
 
