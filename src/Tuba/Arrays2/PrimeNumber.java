@@ -1,35 +1,43 @@
 package Tuba.Arrays2;
 
+import java.util.ArrayList;
+
 public class PrimeNumber {
     public static void main(String[] args) {
-        /*
-          Find the prime numbers between 1 and 50
-          What is the prime number?
 
-          the number is greater than 1, divisible by only 1 and itself . They have 2 divisors
 
-          Example: 7,11,13,43,47
-
-          8 // 1,2,4,8
-
-          What is the smallest prime number?
-
-          2 is the smallest prime number
-         */
-
-        int myNumber=0;
-
-        for(myNumber=1; myNumber<=50 ;myNumber++){
-            int count=0;
-            for(int factors=1; factors<=myNumber/2; factors++){
-                if(myNumber%factors==0){
-                    count++;
-                }
-            }
-            if(count==2){
-                System.out.println(myNumber+ " is a prime number");
-            }
-
-        }
+      //  sumOfPrime(4);
     }
+
+    public boolean isPrime(int number) {
+        if (number < 2) {
+            return false;
+        }
+        for (int i = 2; i < number; i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public long sumOfPrime(int max) {
+        ArrayList<Integer> list = new ArrayList<>();
+        int sum = 0;
+        int count = 0;
+        for (int i = 0; count < max; i++) {
+            if (isPrime(i)) {
+                list.add(i);
+                count++;
+            }
+        }
+
+        for (int each : list) {
+            sum += each;
+        }
+       return sum;
+    }
+
+// 2,3,5,7 =17
 }
