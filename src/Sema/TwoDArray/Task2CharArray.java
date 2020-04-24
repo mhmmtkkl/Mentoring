@@ -1,4 +1,4 @@
-package Sema;
+package Sema.TwoDArray;
 
 public class Task2CharArray {
     //    PRINT BELOW GRID

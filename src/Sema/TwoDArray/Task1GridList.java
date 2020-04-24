@@ -1,4 +1,4 @@
-package Sema;
+package Sema.TwoDArray;
 
 public class Task1GridList {
     /*
