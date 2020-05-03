@@ -49,9 +49,6 @@ public class MapExamples {
             System.out.println(i + " values " + h1.get(i));
         }
 
-
-
-
     }
 
 

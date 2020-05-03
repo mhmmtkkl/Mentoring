@@ -9,7 +9,7 @@ public class MapDifferences {
     /*
         map differences
 
-        order
+        Order
         Hash map -> random order
         Three map -> alphabetical order
         Linked hash map -> insertion order or enter order
@@ -24,6 +24,7 @@ public class MapDifferences {
     public static void main(String[] args) {
 
         HashMap<Integer , String> h1 = new HashMap<>();
+
         h1.put(1, "Apple");
         h1.put(2, "Berry");
         h1.put(3, "Kiwi");
