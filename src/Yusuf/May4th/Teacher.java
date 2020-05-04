@@ -6,17 +6,15 @@ public class Teacher {
     String BADegree;
 
     String howIsTeacher(){
-        String quality = "";
-
         if (yearOfExperience < 2){
-            quality = "not good";
+            return "not good";
         }
         else if(yearOfExperience >= 2 && yearOfExperience < 4){
-            quality = "meh not bad? I guess?";
+            return"meh not bad? I guess?";
         }
         else if(yearOfExperience>=4){
-            quality = "okay no joke this teacher is good. or generally they are...";
+            return "okay no joke this teacher is good. or generally they are...";
         }
-        return quality;
+        return "";
     }
 }
