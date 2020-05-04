@@ -1,0 +1,40 @@
+School Report Card
+
+Create a class named Teacher and Student, and create a new class named Class and call them in.
+Teacher's field:
+    String name;
+    String subject;
+    int yearOfExperience;
+    String BADegree;
+
+    create a method named howGoodIsTeacher in field that will calculate the quality of the teacher
+    by looking at the experience. You can fill the contexts.
+
+Student's field:
+    String name;
+    String major;
+    int age;
+    int firstExamGrade;
+    int secondExamGrade;
+    int thirdExamGrade;
+
+    create a method that will calculate average grade for the student.
+
+Class's field:
+    String subject;
+    Student student;
+    Teacher classTeacher;
+
+    And write a toString method for class that will give the report for the student you created.
+    The report should look like this:
+
+Subject of the class: Java
+
+Name: Furkat
+Age: 25
+Major: Computer Science
+Average grade: 90
+
+Name of the teacher: Dos
+Degree of Dos: Computer Science
+The teacher is : okay no joke this teacher is good. or generally they are...
