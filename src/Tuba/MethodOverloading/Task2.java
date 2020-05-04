@@ -6,13 +6,18 @@ import java.util.Arrays;
 public class Task2 {
     //1st Example
     public static ArrayList<Integer> myList(ArrayList<Integer> list1) {
-        ArrayList<Integer> list2 = new ArrayList<>();
+        ArrayList<Integer> list2=new ArrayList<>();
         for (int each : list1) {
             if (each < 100) {
                 list2.add(each);
             }
         }
         return list2;
+    }
+
+    public static void main(String[] args) {
+
+
     }
 
     // 2nd example
@@ -48,9 +53,7 @@ public class Task2 {
         return color;
     }
 
-    public static void main(String[] args) {
 
-    }
 
     // 6th Example
     public static ArrayList<String> removeShortLength(ArrayList<String> list, String... s) {
