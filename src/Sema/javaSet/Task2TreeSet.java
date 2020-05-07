@@ -1,4 +1,4 @@
-package Sema.JavaSet;
+package Sema.javaSet;
 
 import java.util.TreeSet;
 

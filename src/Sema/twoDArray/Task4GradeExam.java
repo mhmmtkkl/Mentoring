@@ -1,4 +1,4 @@
-package Sema.TwoDArray;//package chapter7;
+package Sema.twoDArray;//package chapter7;
 
 public class Task4GradeExam {
   /*
