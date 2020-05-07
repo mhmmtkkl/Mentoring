@@ -1,4 +1,4 @@
-package Sema.TwoDArray;
+package Sema.twoDArray;
 
 public class Task3MinMax2D {
     /*
