@@ -88,7 +88,8 @@ public class TestUnique {
         Can I enter just a just a unique character
         If the answer is yes
         What should be the output?
-         */
+        */
+
         boolean result = unique.uniqueMethod("*****************");
 
         Assert.assertTrue( "Result should be true but your result is " + result , result==false );
@@ -106,6 +107,7 @@ public class TestUnique {
         If the answer is yes
         What should be the output?
          */
+
         boolean result = unique.uniqueMethod("/*-+!@#$%^&(");
 
         Assert.assertTrue( "Result should be true but your result is " + result , result==true );

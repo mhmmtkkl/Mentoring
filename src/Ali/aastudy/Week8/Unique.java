@@ -11,7 +11,7 @@ public class Unique {
         If the String is unique return true
         else return false
 
-      For example:
+     For example:
         String is mouse
 
         return should be true
@@ -24,17 +24,18 @@ public class Unique {
 
         boolean result = true;
 
-        outer:for(int i = 0 ; i < strChar.length ; i++){
-            for(int j = i+1 ; j < strChar.length ; j++){
+        for(int i = 0 ; i < strChar.length ; i++){
+              for(int j = i+1 ; j < strChar.length ; j++){
 
                 if(strChar[i]==strChar[j]){
                     result = false;
-                    break outer;
+                    break;
                 }
             }
         }
 
         return result;
+
     }
 
 
