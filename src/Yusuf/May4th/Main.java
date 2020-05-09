@@ -4,7 +4,9 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+
         Class tsClass = new Class();
+
         tsClass.classTeacher = new Teacher();
         tsClass.classTeacher.name = "Dos";
         tsClass.classTeacher.yearOfExperience = 15;
