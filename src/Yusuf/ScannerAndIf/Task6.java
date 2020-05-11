@@ -1,4 +1,4 @@
-package Yusuf.March31st;
+package Yusuf.ScannerAndIf;
 
 import java.util.Scanner;
 public class Task6 {

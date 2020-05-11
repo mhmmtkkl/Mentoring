@@ -1,4 +1,4 @@
-package Yusuf.April6th;
+package Yusuf.WhileLoop;
 
 public class Task3 {
     public static void main(String[] args) {

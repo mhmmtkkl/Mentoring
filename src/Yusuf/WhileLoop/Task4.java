@@ -1,4 +1,4 @@
-package Yusuf.April6th;
+package Yusuf.WhileLoop;
 import java.util.Scanner;
 import java.util.Random;
 public class Task4 {

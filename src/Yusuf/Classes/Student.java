@@ -1,4 +1,4 @@
-package Yusuf.May4th;
+package Yusuf.Classes;
 
 public class Student {
     String name;
