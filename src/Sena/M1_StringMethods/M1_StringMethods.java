@@ -1,4 +1,4 @@
-package Sena;
+package Sena.M1_StringMethods;
 
 public class M1_StringMethods {
     public static void main(String[] args) {

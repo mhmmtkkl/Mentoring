@@ -1,4 +1,4 @@
-package Sena.M6_AccessModifiers;
+package Sena.M6_AccessModifiers.AccessModifiers;
 
 import java.util.HashSet;
 
