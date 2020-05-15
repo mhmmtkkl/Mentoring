@@ -1,4 +1,4 @@
-package Sena;
+package Sena.M4_JavaCollections;
 
 public class M4_JavaCollections {
 

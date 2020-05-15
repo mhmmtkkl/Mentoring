@@ -1,4 +1,4 @@
-package Sena;
+package Sena.M2_JavaConversions;
 
 public class M2_JavaConversions {
     public static void main(String[] args) {

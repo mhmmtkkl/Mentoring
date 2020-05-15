@@ -1,6 +1,6 @@
-package Sena.M6_AccessModifiers_OtherPackage;
+package Sena.M6_AccessModifiers.AccessModifiers_OtherPackage;
 
-import Sena.M6_AccessModifiers.Summary;
+import Sena.M6_AccessModifiers.AccessModifiers.Summary;
 
 public class OtherPackageClass {
 
