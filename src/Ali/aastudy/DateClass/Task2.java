@@ -9,6 +9,7 @@ import java.time.format.DateTimeFormatter;
 public class Task2 {
 
     /*
+
         Create a method name is addMonth()
         parameter is int(addMonths)
         return type is String.
@@ -36,9 +37,8 @@ public class Task2 {
 
         String dateFormatted = lc.format(formatter);
 
-
-
         return dateFormatted;
+
     }
 
     /*

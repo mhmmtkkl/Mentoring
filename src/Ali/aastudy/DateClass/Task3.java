@@ -21,7 +21,6 @@ public class Task3 {
         date2: 01/01/2020
 
         result should be 20
-
    */
 
     private int compareDate(String date1, String date2){
@@ -37,6 +36,7 @@ public class Task3 {
         int difference = lcDate1.compareTo(lcDate2);
 
         return difference;
+
     }
 
     /*
@@ -48,9 +48,9 @@ public class Task3 {
     @Test
     public void test1(){
 
-        int actual = compareDate("01-01-2020" , "01-01-2000");
+        int actual = compareDate("13-05-2020" , "14-05-2002");
 
-        int expected = 20;
+        int expected = 17;
 
         Assert.assertEquals(expected, actual);
 
