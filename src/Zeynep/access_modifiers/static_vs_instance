@@ -1,0 +1,46 @@
+public class Gorilla{
+
+public static int count;
+
+public static void addGorilla(){
+count++;
+}
+
+public void babyGorilla(){
+count++;
+}
+
+public void announceBabies(){
+addGorilla();
+babyGorilla();
+}
+
+public static void announceBabiesToEveryone(){
+addGorilla();
+babyGorilla();     //does not compile bc it is not static, static method cannot call instance method
+
+}
+public int total;
+public static average = total/count;  //static variable cannot reach instance variable
+}
+
+
+////////////
+
+public class Counter{
+
+private static int count;
+
+public Counter(){
+count++;
+}
+
+
+public static void main(String[] args){
+Counter c1 = new Counter();
+Counter c2 = new Counter();
+Counter c3 = new Counter();
+
+System.out.println(count);   //count is 3
+}
+}
