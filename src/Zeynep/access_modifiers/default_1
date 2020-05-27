@@ -1,0 +1,41 @@
+package pond.duck:
+
+public class MotherDuck{
+String noise = "quack";  //default attributes
+
+void quack(){    //default method
+System.out.println(noise);
+}
+
+private void makeNoise(){    //private method
+quack();
+}
+}
+//////////////////
+
+package pond.duck:
+
+public class GoodDuckling{
+
+public void makeNoise(){
+MotherDuck duck = new MotherDuck();
+
+duck.quack;
+
+System.out.println(duck.noise);
+}
+}
+////////////////
+
+package pond.swan;
+import pond.duck.MotherDuck;  //import another package
+
+public class BadCygnet{
+MotherDuck duck = new MotherDuck();
+duck.quack;
+System.out.println(duck.noise);
+}
+}
+
+
+
