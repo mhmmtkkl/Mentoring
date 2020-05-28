@@ -34,9 +34,7 @@ public class Task1 {
         for(Double d1:hashSet){
              total += d1; //total = total + d1;
         }
-
         System.out.println(total);
-
     }
 
 
