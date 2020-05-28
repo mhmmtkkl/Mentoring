@@ -1,5 +1,4 @@
 package Yusuf.Static;
-
 public class Question2 {
 
     int num1 = 3;

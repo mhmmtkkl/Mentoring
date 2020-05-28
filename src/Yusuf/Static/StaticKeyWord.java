@@ -1,17 +1,16 @@
 package Yusuf.Static;
-
 public class StaticKeyWord {
-    static int a = 5;
-    int aa = 10;
-    static String b = "Techno";
-    String bb = "Study";
+//    int a = 5;
+    static int age=2;
+    static String name;
 
     public static void main(String[] args) {
-        System.out.println(b);
+
+        System.out.println(age);
     }
-    static {
-        a = 2;
-        b = "esen";
+    static{
+        age=35;
+        name = "Techno";
     }
 
 }
