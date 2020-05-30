@@ -1,20 +1,18 @@
 package Yusuf.Constructors;
-
 enum Condition{
     REALLYOLD, USED, GOOD, LIKENEW;
 }
-
-class Car {
+public class Car {
     String brand;
     int year;
     Condition condition;
     double price;
     public Car(){
     }
-    public Car(String brand, int year, Condition cond, double price){
+    public Car(String brand, int year, Condition condition, double price) {
         this.brand = brand;
         this.year = year;
-        this.condition = cond;
+        this.condition = condition;
         this.price = price;
     }
     public Car(String brand, int year){
@@ -22,12 +20,9 @@ class Car {
         this.year = year;
     }
     public String toString(){
-        return "Brand: " + brand +
+        return "Brand: " + brand+
                 "\nYear: " + year +
-                "\nCondition: " + condition +
+                "\nCondition: " + condition+
                 "\nPrice: " + price;
     }
 }
-
-
-
