@@ -21,7 +21,6 @@ public class EmployeesEncap {
         Create a to String method and print the name employee id and salary after tax.
 
      */
-
     private String EmployeeName;
     private int employeeID;
     private double salary;
