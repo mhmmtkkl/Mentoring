@@ -11,6 +11,8 @@ public class EmployeesEncap {
 
         All variables are write only
 
+
+
         Employee id should be more then 100 and less then 600
 
         Salary should be more then 50K
