@@ -4,6 +4,7 @@ public class PartTimeEmployee extends Employee {
 
     private int hourlyRate;
 
+
     public PartTimeEmployee(int id, String name) {
         super(id, name);
     }

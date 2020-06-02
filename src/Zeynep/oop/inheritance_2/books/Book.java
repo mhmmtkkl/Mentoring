@@ -6,6 +6,7 @@ public class Book {
     public String author;
     public String language;
 
+
     public Book(int page, String author, String language) {
         this.page = page;
         this.author = author;

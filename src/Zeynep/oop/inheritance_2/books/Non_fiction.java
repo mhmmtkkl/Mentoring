@@ -5,6 +5,7 @@ public class Non_fiction extends Book {
     public String title;
 
 
+
     public Non_fiction(int page, String author, String language, String title) {
         super(page, author, language);
         this.title = title;

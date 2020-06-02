@@ -4,6 +4,7 @@ public class BooksApp {
 
     public static void main(String[] args) {
 
+
         Fiction fiction = new Fiction(328, "George Orwell", "English");
         fiction.setGenre(" dystopian novel");
 

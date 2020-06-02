@@ -4,6 +4,7 @@ public class Fiction  extends Book{
 
     public String genre;
 
+
     public Fiction(int page, String author, String language) {
         super(page, author, language);
     }

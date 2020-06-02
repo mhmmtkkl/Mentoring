@@ -8,6 +8,7 @@ public class EmployeeApp {
         //full.payIncrement();
         System.out.println(full);
 
+
         PartTimeEmployee part = new PartTimeEmployee(1256, "Yavuz");
         part.setHourlyRate(7500);
         System.out.println(part);
