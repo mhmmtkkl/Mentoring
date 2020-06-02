@@ -2,8 +2,9 @@ package Ali.officeHour.EncapsulationPart2.WhyWeNeedEncapslation;
 
 public class Student {
 
-    private String name;
+    private static String name;
     private int score;
+
 
     public Student(String name){
 

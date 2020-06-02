@@ -49,9 +49,6 @@ public class EmployeesEncap {
     }
 
 
-
-    
-
     //  Salary should be more then 50K
 
 //   Calculate the salary after tax and return the result.
