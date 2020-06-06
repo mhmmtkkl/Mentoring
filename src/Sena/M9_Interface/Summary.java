@@ -18,6 +18,12 @@ public class Summary {
 
 interface myInterface {
 
+    default void myM (){
+
+    }
+    // only if its a default method, you can have non abstract method in an interface
+
+
     // variables:
     public String name = "Interface"; // no need for public to be written, it already has to be public
     final int seasons = 4; // no need for final to be written, it already has to be final
@@ -38,7 +44,7 @@ interface myInterface {
 //    private String [] errorMethod2 (); // private is not allowed
 
 
-    // constructor:
+     // constructor:
 
 //    public myInterface (String name, int seasons) { // constructors are not allowed
 //        this.name = name;
