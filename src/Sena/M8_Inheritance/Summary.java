@@ -19,21 +19,49 @@ public class Summary {
 }
 
 class superclass {
+    int age = 99;
+    String name = "";
+    public String toString () {
+        return "hi";
+    }
+
+//    public superclass (int age, String name) {
+//        this.age = age;
+//        this.name = name;
+//    }
 
 }
 
-class subclass1 {
+class subclass1 extends superclass {
 
+    private String extra;
+
+//    public subclass1(int age, String name, String extra) {
+//        super(age, name);
+//        this.extra = extra;
+//    }
+
+    public static void main(String[] args) {
+        subclass1 s1 = new subclass1();
+    }
 }
 
 //
 
 abstract class abstractSuperclass {
 
+    public abstract double num ();
+
+
 }
 
-class subclass2 {
+class subclass2 extends abstractSuperclass implements superInterface1, superInterface2 {
 
+
+    @Override
+    public double num() {
+        return 0;
+    }
 }
 
 //
