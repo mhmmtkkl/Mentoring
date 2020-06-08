@@ -1,0 +1,19 @@
+/*
+
+ step1
+
+ create a superClass called Book, and add 3 attributes/fields (page, author and language)
+ add a constructor that includes fields
+ add a toString method that includes all fields
+
+ step2
+
+ create 2 subClasses which are called Fiction and Non_fiction
+ make sure to create constructors matching super
+
+
+ step3
+
+ add some attributes/fields and some methods into the subClasses like (title, genre)
+
+ */
