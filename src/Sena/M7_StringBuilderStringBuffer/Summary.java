@@ -21,14 +21,15 @@ public class Summary {
 
         // StringBuilders and StringBuffers have almost the same exact methods:
 
-        stringBuilder.append(1);
-        stringBuffer.append("a");
+        char [] arr = {'a', '1', 'z'};
 
-        stringBuilder.insert(1, 2);
-        stringBuffer.insert(1, 'b');
+        stringBuilder.append(arr);
+        stringBuffer.append(8473847);
+        stringBuffer.reverse();
 
         System.out.println(stringBuilder);
         System.out.println(stringBuffer);
+
 
 
 

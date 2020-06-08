@@ -1,37 +1,33 @@
-package Ali.officeHour.EncapsulationPart2.WhyWeNeedEncapslation;
+package Ali.officeHour.Encapsulation3;
 
 public class Student {
 
-    private static String name;
+
+    private String name;
     private int score;
 
-
-    public Student(String name){
+    public Student(String name , int score ){
 
         this.name = name;
-
-//  score should be between 0 and 100
-//        this.score = score;
+        setScore(score);
 
     }
 
+
     public void setScore(int score) {
-        if(score>=0 && score<=100){
+        if(score>=0 && score<=100) {
             this.score = score;
         }else{
             throw new RuntimeException("Score should be between 0 and 100");
         }
     }
 
-    public int getScore() {
-        return score;
-    }
-
     @Override
     public String toString() {
-        return "user{" +
+        return "Student{" +
                 "name='" + name + '\'' +
                 ", score=" + score +
                 '}';
     }
+
 }
