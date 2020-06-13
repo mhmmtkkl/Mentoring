@@ -1,0 +1,13 @@
+/*
+
+create a employee class as a superClass
+add 2 private attributes like id and name
+add double payIncrement
+
+
+
+create 2 subclasses like FullTimeEmployee and PartTimeEmployee
+add private attributes like salary and hourlyRate
+
+
+*/
