@@ -20,8 +20,8 @@ public class Defect {
         2)	How do you handle the conflict with the developer?
 
                 Before I talk with developer, I am making sure it is a valid defect. I have a screenshots
-             expected result actual result. I have a discussion with developer if he is not agree with me
-             then BA is sitting next to us and we are asking to he. She decides is this a defect or not.
+             expected result actual result. I have a discussion with developer if he is NOT agree with me
+             then BA is sitting next to us and we are asking to her. She decides is this a defect or not.
              If she said it is a defect then I am creating defect in Jira else I am not.
 
 
