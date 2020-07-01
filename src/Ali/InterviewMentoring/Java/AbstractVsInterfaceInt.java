@@ -1,4 +1,4 @@
-package Ali.InterviewMentoring;
+package Ali.InterviewMentoring.Java;
 
 public class AbstractVsInterfaceInt {
 
