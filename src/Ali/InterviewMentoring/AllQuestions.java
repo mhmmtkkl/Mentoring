@@ -19,17 +19,23 @@ public class AllQuestions {
         13) How do you test basic calculator?
         14) Create a test cases for the Vending Machine?
         15) Write test cases for the given scenario. Customers choose to buy a book using the credit card payment option.
+        16) What is Polymorphism?
+        17) What is runtime polymorphism or dynamic polymorphism?
+        18) What is the difference between pass-by-value and pass-by-reference? pass  by value & pass by reference?
 
-        Next Week
-            What is Polymorphism?
-            What is runtime polymorphism or dynamic method dispatch?
-            Difference between Polymorphism and Inheritance?
-            What is the difference between pass-by-value and pass-by-reference? pass  by value & pass by reference?
 
         Selenium
         1) What are the advantages of Selenium?
         2) What are the disadvantages-limitation of Selenium?
         3) Which locators are available in the selenium?
+
+        Next Week:
+            Is-A relationship vs Has-A relationship in Java?
+
+            FindElement vs find Elements ?
+            How to select value in a dropdown?
+            What are the different types of navigation commands?
+            What is the difference between driver.close() and driver.quit command?
 
      */
 
