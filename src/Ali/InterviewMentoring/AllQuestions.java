@@ -28,15 +28,11 @@ public class AllQuestions {
         1) What are the advantages of Selenium?
         2) What are the disadvantages-limitation of Selenium?
         3) Which locators are available in the selenium?
-
-        Next Week:
-            Is-A relationship vs Has-A relationship in Java?
-
-            FindElement vs find Elements ?
-            How to select value in a dropdown?
-            What are the different types of navigation commands?
-            What is the difference between driver.close() and driver.quit command?
-
+        4) FindElement vs find Elements ?
+        5) How to select value in a dropdown?
+        6) What are the different types of navigation commands?
+        7) What is the difference between driver.close() and driver.quit command?
+     
      */
 
 
