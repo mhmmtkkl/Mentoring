@@ -32,7 +32,9 @@ public class AllQuestions {
         5) How to select value in a dropdown?
         6) What are the different types of navigation commands?
         7) What is the difference between driver.close() and driver.quit command?
-     
+
+        1) Tell me about yourself
+
      */
 
 
