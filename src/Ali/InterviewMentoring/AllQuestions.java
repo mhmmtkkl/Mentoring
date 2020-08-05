@@ -32,8 +32,16 @@ public class AllQuestions {
         5) How to select value in a dropdown?
         6) What are the different types of navigation commands?
         7) What is the difference between driver.close() and driver.quit command?
+        8) How do you decide to use xpath or css locator?
+        9) How do you handle dynamic elements?
 
         1) Tell me about yourself
+
+
+
+        Tell me about your role?
+        Tell me about your team
+        What is offshore?
 
      */
 

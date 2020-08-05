@@ -11,7 +11,7 @@ public class TellMeAboutYourSelf {
             Talk about professional summary . Agile , Tools , Personality(Quick learner , problem solver)
                                                                           multi task handler
 
- 
+
            Hi My name is Ali and I am in the IT field ... year. Currently I am working in agile
             methodology but I am familiar with waterfall as well.
 
@@ -21,7 +21,7 @@ public class TellMeAboutYourSelf {
             Maven for project management tool(dependency management). I can write sql queries for
             back end testing. For manual API testing I am using postman automation API I am using
             rest assured libraries.
-
+            
           I can consider myself as positive person, Good team member , I am also quick learner
             basically I can learn new tools or languages if this job description required.
 
