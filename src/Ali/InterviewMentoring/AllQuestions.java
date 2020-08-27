@@ -43,6 +43,16 @@ public class AllQuestions {
         Tell me about your team
         What is offshore?
 
+
+    API
+       1) What is API , What is UI
+
+       2) Request types get post put delete
+
+       3) Status codes?
+
+       4) What are you going to do if you find a 400 - 500 status code?
+
      */
 
 

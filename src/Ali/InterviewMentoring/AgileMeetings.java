@@ -1,4 +1,4 @@
-package Ali.InterviewMentoring.Java;
+package Ali.InterviewMentoring;
 
 public class AgileMeetings {
 

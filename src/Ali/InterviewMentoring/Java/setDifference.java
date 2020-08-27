@@ -18,7 +18,6 @@ public class setDifference {
 
           ArrayList accept duplicated values
           Set accept single value
-\
 
           ArrayList While getting the data from arraylist we can use .get() method
           Set While getting the data from set we have to use forEach loop
