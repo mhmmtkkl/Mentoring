@@ -53,6 +53,14 @@ public class AllQuestions {
 
        4) What are you going to do if you find a 400 - 500 status code?
 
+    Cucumber
+    Advantage of cucumber(BDD)?
+    Tell me about the cucumber background?
+    How to run multiple scenarios in cucumber?
+    How to run multiple data in cucumber?
+    Difference between data table and scenario outline?
+
+
      */
 
 
